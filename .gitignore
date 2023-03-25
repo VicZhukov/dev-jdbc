@@ -1,0 +1,17 @@
+# Ignore Gradle build directory and .gradle directory
+build/
+.gradle/
+
+# Ignore all .class files
+*.class
+
+# Ignore All .jar, .war, .ear files
+*.far
+*.war
+*.ear
+
+#Ignore Intellij project files
+*.ipr
+*.iws
+*.iml
+.idea/

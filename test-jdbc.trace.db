@@ -1,0 +1,329 @@
+2023-03-22 18:21:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO worker (id, name, birthday, level, salary) VALUES[*]"; ожидалось "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO worker (id, name, birthday, level, salary) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO worker (id, name, birthday, level, salary) VALUES [42001-214]
+2023-03-22 18:22:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO worker (id, name, birthday, level, salary) VALUES[*]"; ожидалось "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO worker (id, name, birthday, level, salary) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO worker (id, name, birthday, level, salary) VALUES [42001-214]
+2023-03-22 18:22:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO worker (id, name, birthday, level, salary) VALUES[*]"; ожидалось "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"
+Syntax error in SQL statement "INSERT INTO worker (id, name, birthday, level, salary) VALUES[*]"; expected "ROW (, (, DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO worker (id, name, birthday, level, salary) VALUES [42001-214]
+2023-03-22 18:24:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 18:28:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 18:31:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 18:35:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 18:40:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 18:42:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 18:42:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 18:43:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "(, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "([*]10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "(, SELECT, TABLE, VALUES"; SQL statement:
+(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 19:02:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 [*]'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 [*]'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-22 19:09:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO worker (id, name, birthday, level, salary) VALUES\000a(1 [*]'Adam', '1994-01-01', 'Trainee', 900),\000a(2, 'Ben', '1995-03-02', 'Trainee', 850),\000a(3, 'Claus', '1994-01-03', 'Junior', 1500),\000a(4, 'Douglas', '1998-05-04', 'Junior', 1450),\000a(5, 'Ethan', '1993-10-05', 'Middle', 3100),\000a(6, 'Frank', '1991-07-06', 'Middle', 3500),\000a(7, 'Liam', '1997-08-07', 'Senior', 5300),\000a(8, 'Martin', '1994-09-08', 'Senior', 5100),\000a(9, 'Victor', '1993-06-05', 'Senior', 5600),\000a(10, 'Rick', '1992-10-15', 'Senior', 5400);\000a\000aINSERT INTO client (id, name) VALUES\000a(1, 'Elon'),\000a(2, 'Mark'),\000a(3, 'Bill'),\000a(4, 'James'),\000a(5, 'Steve');\000a\000aINSERT INTO project (id, client_id, start_date, finish_date) VALUES\000a(1, 1, '2023-03-01', '2023-04-01'),\000a(2, 2, '2023-03-01', '2023-05-01'),\000a(3, 3, '2023-03-01', '2023-06-01'),\000a(4, 4, '2023-03-01', '2024-03-01'),\000a(5, 4, '2023-03-01', '2025-03-01'),\000a(6, 1, '2023-03-01', '2025-04-01'),\000a(7, 2, '2023-03-01', '2028-04-01'),\000a(8, 3, '2023-03-01', '2028-04-01'),\000a(9, 2, '2023-03-01', '2030-06-01'),\000a(10, 5,'2023-03-01', '2030-03-02');\000a\000a\000aINSERT INTO project_worker (project_id, worker_id) VALUES\000a(1, 5),\000a(2, 7),\000a(3, 6),\000a(4, 4),\000a(5, 1),\000a(6, 3),\000a(7, 2),\000a(8, 10),\000a(9, 9),\000a(10, 8);\000a"; ожидалось "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO worker (id, name, birthday, level, salary) VALUES\000a(1 [*]'Adam', '1994-01-01', 'Trainee', 900),\000a(2, 'Ben', '1995-03-02', 'Trainee', 850),\000a(3, 'Claus', '1994-01-03', 'Junior', 1500),\000a(4, 'Douglas', '1998-05-04', 'Junior', 1450),\000a(5, 'Ethan', '1993-10-05', 'Middle', 3100),\000a(6, 'Frank', '1991-07-06', 'Middle', 3500),\000a(7, 'Liam', '1997-08-07', 'Senior', 5300),\000a(8, 'Martin', '1994-09-08', 'Senior', 5100),\000a(9, 'Victor', '1993-06-05', 'Senior', 5600),\000a(10, 'Rick', '1992-10-15', 'Senior', 5400);\000a\000aINSERT INTO client (id, name) VALUES\000a(1, 'Elon'),\000a(2, 'Mark'),\000a(3, 'Bill'),\000a(4, 'James'),\000a(5, 'Steve');\000a\000aINSERT INTO project (id, client_id, start_date, finish_date) VALUES\000a(1, 1, '2023-03-01', '2023-04-01'),\000a(2, 2, '2023-03-01', '2023-05-01'),\000a(3, 3, '2023-03-01', '2023-06-01'),\000a(4, 4, '2023-03-01', '2024-03-01'),\000a(5, 4, '2023-03-01', '2025-03-01'),\000a(6, 1, '2023-03-01', '2025-04-01'),\000a(7, 2, '2023-03-01', '2028-04-01'),\000a(8, 3, '2023-03-01', '2028-04-01'),\000a(9, 2, '2023-03-01', '2030-06-01'),\000a(10, 5,'2023-03-01', '2030-03-02');\000a\000a\000aINSERT INTO project_worker (project_id, worker_id) VALUES\000a(1, 5),\000a(2, 7),\000a(3, 6),\000a(4, 4),\000a(5, 1),\000a(6, 3),\000a(7, 2),\000a(8, 10),\000a(9, 9),\000a(10, 8);\000a"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO worker (id, name, birthday, level, salary) VALUES
+(1 'Adam', '1994-01-01', 'Trainee', 900),
+(2, 'Ben', '1995-03-02', 'Trainee', 850),
+(3, 'Claus', '1994-01-03', 'Junior', 1500),
+(4, 'Douglas', '1998-05-04', 'Junior', 1450),
+(5, 'Ethan', '1993-10-05', 'Middle', 3100),
+(6, 'Frank', '1991-07-06', 'Middle', 3500),
+(7, 'Liam', '1997-08-07', 'Senior', 5300),
+(8, 'Martin', '1994-09-08', 'Senior', 5100),
+(9, 'Victor', '1993-06-05', 'Senior', 5600),
+(10, 'Rick', '1992-10-15', 'Senior', 5400);
+
+INSERT INTO client (id, name) VALUES
+(1, 'Elon'),
+(2, 'Mark'),
+(3, 'Bill'),
+(4, 'James'),
+(5, 'Steve');
+
+INSERT INTO project (id, client_id, start_date, finish_date) VALUES
+(1, 1, '2023-03-01', '2023-04-01'),
+(2, 2, '2023-03-01', '2023-05-01'),
+(3, 3, '2023-03-01', '2023-06-01'),
+(4, 4, '2023-03-01', '2024-03-01'),
+(5, 4, '2023-03-01', '2025-03-01'),
+(6, 1, '2023-03-01', '2025-04-01'),
+(7, 2, '2023-03-01', '2028-04-01'),
+(8, 3, '2023-03-01', '2028-04-01'),
+(9, 2, '2023-03-01', '2030-06-01'),
+(10, 5,'2023-03-01', '2030-03-02');
+
+
+INSERT INTO project_worker (project_id, worker_id) VALUES
+(1, 5),
+(2, 7),
+(3, 6),
+(4, 4),
+(5, 1),
+(6, 3),
+(7, 2),
+(8, 10),
+(9, 9),
+(10, 8);
+ [42001-214]
+2023-03-22 19:09:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO worker (id, name, birthday, level, salary) VALUES\000a(1 [*]'Adam', '1994-01-01', 'Trainee', 900),\000a(2, 'Ben', '1995-03-02', 'Trainee', 850),\000a(3, 'Claus', '1994-01-03', 'Junior', 1500),\000a(4, 'Douglas', '1998-05-04', 'Junior', 1450),\000a(5, 'Ethan', '1993-10-05', 'Middle', 3100),\000a(6, 'Frank', '1991-07-06', 'Middle', 3500),\000a(7, 'Liam', '1997-08-07', 'Senior', 5300),\000a(8, 'Martin', '1994-09-08', 'Senior', 5100),\000a(9, 'Victor', '1993-06-05', 'Senior', 5600),\000a(10, 'Rick', '1992-10-15', 'Senior', 5400);\000a\000aINSERT INTO client (id, name) VALUES\000a(1, 'Elon'),\000a(2, 'Mark'),\000a(3, 'Bill'),\000a(4, 'James'),\000a(5, 'Steve');\000a\000aINSERT INTO project (id, client_id, start_date, finish_date) VALUES\000a(1, 1, '2023-03-01', '2023-04-01'),\000a(2, 2, '2023-03-01', '2023-05-01'),\000a(3, 3, '2023-03-01', '2023-06-01'),\000a(4, 4, '2023-03-01', '2024-03-01'),\000a(5, 4, '2023-03-01', '2025-03-01'),\000a(6, 1, '2023-03-01', '2025-04-01'),\000a(7, 2, '2023-03-01', '2028-04-01'),\000a(8, 3, '2023-03-01', '2028-04-01'),\000a(9, 2, '2023-03-01', '2030-06-01'),\000a(10, 5,'2023-03-01', '2030-03-02');\000a\000a\000aINSERT INTO project_worker (project_id, worker_id) VALUES\000a(1, 5),\000a(2, 7),\000a(3, 6),\000a(4, 4),\000a(5, 1),\000a(6, 3),\000a(7, 2),\000a(8, 10),\000a(9, 9),\000a(10, 8);\000a"; ожидалось "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO worker (id, name, birthday, level, salary) VALUES\000a(1 [*]'Adam', '1994-01-01', 'Trainee', 900),\000a(2, 'Ben', '1995-03-02', 'Trainee', 850),\000a(3, 'Claus', '1994-01-03', 'Junior', 1500),\000a(4, 'Douglas', '1998-05-04', 'Junior', 1450),\000a(5, 'Ethan', '1993-10-05', 'Middle', 3100),\000a(6, 'Frank', '1991-07-06', 'Middle', 3500),\000a(7, 'Liam', '1997-08-07', 'Senior', 5300),\000a(8, 'Martin', '1994-09-08', 'Senior', 5100),\000a(9, 'Victor', '1993-06-05', 'Senior', 5600),\000a(10, 'Rick', '1992-10-15', 'Senior', 5400);\000a\000aINSERT INTO client (id, name) VALUES\000a(1, 'Elon'),\000a(2, 'Mark'),\000a(3, 'Bill'),\000a(4, 'James'),\000a(5, 'Steve');\000a\000aINSERT INTO project (id, client_id, start_date, finish_date) VALUES\000a(1, 1, '2023-03-01', '2023-04-01'),\000a(2, 2, '2023-03-01', '2023-05-01'),\000a(3, 3, '2023-03-01', '2023-06-01'),\000a(4, 4, '2023-03-01', '2024-03-01'),\000a(5, 4, '2023-03-01', '2025-03-01'),\000a(6, 1, '2023-03-01', '2025-04-01'),\000a(7, 2, '2023-03-01', '2028-04-01'),\000a(8, 3, '2023-03-01', '2028-04-01'),\000a(9, 2, '2023-03-01', '2030-06-01'),\000a(10, 5,'2023-03-01', '2030-03-02');\000a\000a\000aINSERT INTO project_worker (project_id, worker_id) VALUES\000a(1, 5),\000a(2, 7),\000a(3, 6),\000a(4, 4),\000a(5, 1),\000a(6, 3),\000a(7, 2),\000a(8, 10),\000a(9, 9),\000a(10, 8);\000a"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO worker (id, name, birthday, level, salary) VALUES
+(1 'Adam', '1994-01-01', 'Trainee', 900),
+(2, 'Ben', '1995-03-02', 'Trainee', 850),
+(3, 'Claus', '1994-01-03', 'Junior', 1500),
+(4, 'Douglas', '1998-05-04', 'Junior', 1450),
+(5, 'Ethan', '1993-10-05', 'Middle', 3100),
+(6, 'Frank', '1991-07-06', 'Middle', 3500),
+(7, 'Liam', '1997-08-07', 'Senior', 5300),
+(8, 'Martin', '1994-09-08', 'Senior', 5100),
+(9, 'Victor', '1993-06-05', 'Senior', 5600),
+(10, 'Rick', '1992-10-15', 'Senior', 5400);
+
+INSERT INTO client (id, name) VALUES
+(1, 'Elon'),
+(2, 'Mark'),
+(3, 'Bill'),
+(4, 'James'),
+(5, 'Steve');
+
+INSERT INTO project (id, client_id, start_date, finish_date) VALUES
+(1, 1, '2023-03-01', '2023-04-01'),
+(2, 2, '2023-03-01', '2023-05-01'),
+(3, 3, '2023-03-01', '2023-06-01'),
+(4, 4, '2023-03-01', '2024-03-01'),
+(5, 4, '2023-03-01', '2025-03-01'),
+(6, 1, '2023-03-01', '2025-04-01'),
+(7, 2, '2023-03-01', '2028-04-01'),
+(8, 3, '2023-03-01', '2028-04-01'),
+(9, 2, '2023-03-01', '2030-06-01'),
+(10, 5,'2023-03-01', '2030-03-02');
+
+
+INSERT INTO project_worker (project_id, worker_id) VALUES
+(1, 5),
+(2, 7),
+(3, 6),
+(4, 4),
+(5, 1),
+(6, 3),
+(7, 2),
+(8, 10),
+(9, 9),
+(10, 8);
+ [42001-214]
+2023-03-23 08:03:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 [*]'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 [*]'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-23 08:04:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 [*]'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400);"; ожидалось "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"
+Syntax error in SQL statement "INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 [*]'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400);"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO worker (id, name, birthday, level, salary) VALUES(1 'Adam', '1994-01-01', 'Trainee', 900),(2, 'Ben', '1995-03-02', 'Trainee', 850),(3, 'Claus', '1994-01-03', 'Junior', 1500),(4, 'Douglas', '1998-05-04', 'Junior', 1450),(5, 'Ethan', '1993-10-05', 'Middle', 3100),(6, 'Frank', '1991-07-06', 'Middle', 3500),(7, 'Liam', '1997-08-07', 'Senior', 5300),(8, 'Martin', '1994-09-08', 'Senior', 5100),(9, 'Victor', '1993-06-05', 'Senior', 5600),(10, 'Rick', '1992-10-15', 'Senior', 5400); [42001-214]
+2023-03-23 15:26:52 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]" [50000-214]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:395)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:125)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:3318)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:593)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:469)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+	at org.h2.mvstore.db.Store.<init>(Store.java:136)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at ua.goit.vic.Database.<init>(Database.java:14)
+	at ua.goit.vic.Database.<clinit>(Database.java:8)
+	at ua.goit.vic.DatabaseQueryService.findMaxSalaryWorker(DatabaseQueryService.java:15)
+	at ua.goit.vic.DatabaseQueryService.main(DatabaseQueryService.java:43)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]" [50000-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	... 21 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:178)
+	at org.h2.mvstore.FileStore.open(FileStore.java:128)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+	... 15 more
+2023-03-23 15:27:13 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]" [50000-214]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:395)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:125)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:3318)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:593)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:469)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+	at org.h2.mvstore.db.Store.<init>(Store.java:136)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at ua.goit.vic.Database.<init>(Database.java:14)
+	at ua.goit.vic.Database.<clinit>(Database.java:8)
+	at ua.goit.vic.DatabaseQueryService.findMaxSalaryWorker(DatabaseQueryService.java:15)
+	at ua.goit.vic.DatabaseQueryService.main(DatabaseQueryService.java:43)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]" [50000-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	... 21 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Victor/Desktop/GitHub/dev-jdbc/test-jdbc.mv.db [2.1.214/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:178)
+	at org.h2.mvstore.FileStore.open(FileStore.java:128)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+	... 15 more
+2023-03-23 15:29:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT name, salaryFROM workerORDER [*]BY salary DESCLIMIT 1;"
+Syntax error in SQL statement "SELECT name, salaryFROM workerORDER [*]BY salary DESCLIMIT 1;"; SQL statement:
+SELECT name, salaryFROM workerORDER BY salary DESCLIMIT 1; [42000-214]
+2023-03-23 15:33:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT name, salaryFROM workerORDERBY [*]salary DESCLIMIT 1;"
+Syntax error in SQL statement "SELECT name, salaryFROM workerORDERBY [*]salary DESCLIMIT 1;"; SQL statement:
+SELECT name, salaryFROM workerORDERBY salary DESCLIMIT 1; [42000-214]
+2023-03-23 15:36:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT name, salaryFROM workerORDER [*]BY salary DESCLIMIT 1;"
+Syntax error in SQL statement "SELECT name, salaryFROM workerORDER [*]BY salary DESCLIMIT 1;"; SQL statement:
+SELECT name, salaryFROM workerORDER BY salary DESCLIMIT 1; [42000-214]
+2023-03-25 11:20:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-214]
+2023-03-25 11:39:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "START_DATE" не найден
+Column "START_DATE" not found [42122-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at ua.goit.vic.DatabaseQueryService.findLongestProjects(DatabaseQueryService.java:45)
+	at ua.goit.vic.DatabaseQueryService.main(DatabaseQueryService.java:58)
+2023-03-25 12:43:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PROJECT_COST" не найден
+Column "PROJECT_COST" not found; SQL statement:
+SELECT p.id AS name, SUM(w.salary * TIMESTAMPDIFF(MONTH, p.start_date, p.finish_date)) AS price
+FROM project p
+JOIN project_worker pw ON p.id = pw.project_id
+JOIN worker w ON pw.worker_id = w.id
+GROUP BY p.id
+ORDER BY project_cost DESC;
+ [42122-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1170)
+	at org.h2.command.query.Query.prepare(Query.java:218)
+	at org.h2.command.Parser.prepareCommand(Parser.java:575)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:92)
+	at ua.goit.vic.DatabaseQueryService.printProjectPrices(DatabaseQueryService.java:97)
+	at ua.goit.vic.DatabaseQueryService.main(DatabaseQueryService.java:111)
+2023-03-25 12:45:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PROJECT_COST" не найден
+Column "PROJECT_COST" not found; SQL statement:
+SELECT p.id AS name, SUM(w.salary * TIMESTAMPDIFF(MONTH, p.start_date, p.finish_date)) AS price
+FROM project p
+JOIN project_worker pw ON p.id = pw.project_id
+JOIN worker w ON pw.worker_id = w.id
+GROUP BY p.id
+ORDER BY project_cost DESC;
+ [42122-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1170)
+	at org.h2.command.query.Query.prepare(Query.java:218)
+	at org.h2.command.Parser.prepareCommand(Parser.java:575)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:92)
+	at ua.goit.vic.DatabaseQueryService.printProjectPrices(DatabaseQueryService.java:97)
+	at ua.goit.vic.DatabaseQueryService.main(DatabaseQueryService.java:111)
+2023-03-25 12:56:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PROJECT_COST" не найден
+Column "PROJECT_COST" not found; SQL statement:
+SELECT p.id AS name, SUM(w.salary * TIMESTAMPDIFF(MONTH, p.start_date, p.finish_date)) AS price
+FROM project p
+JOIN project_worker pw ON p.id = pw.project_id
+JOIN worker w ON pw.worker_id = w.id
+GROUP BY p.id
+ORDER BY project_cost DESC [42122-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1170)
+	at org.h2.command.query.Query.prepare(Query.java:218)
+	at org.h2.command.Parser.prepareCommand(Parser.java:575)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1339)
+	at org.h2.server.web.WebApp.query(WebApp.java:1137)
+	at org.h2.server.web.WebApp$1.next(WebApp.java:1103)
+	at org.h2.server.web.WebApp$1.next(WebApp.java:1090)
+	at org.h2.server.web.WebThread.process(WebThread.java:188)
+	at org.h2.server.web.WebThread.run(WebThread.java:101)
+	at java.base/java.lang.Thread.run(Thread.java:831)
