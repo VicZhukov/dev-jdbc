@@ -13,7 +13,7 @@ public class DatabaseQueryService {
     List<FindMaxSalaryWorker> findMaxSalaryWorkers(){
         List<FindMaxSalaryWorker> workers = new ArrayList<>();
 
-        String sql = SQLReader.fileReader("C:\\Users\\Victor\\Desktop\\GitHub\\dev-jdbc\\src\\main\\java\\ua\\goit\\vic\\sql\\find_max_salary_worker.sql");
+        String sql = SQLReader.fileReader("src/main/java/ua/goit/vic/sql/find_max_salary_worker.sql");
 
         try(Statement statement = Database.getInstance().getConnection().createStatement()){
             ResultSet rs = statement.executeQuery(sql);
@@ -22,7 +22,7 @@ public class DatabaseQueryService {
                         .name(rs.getString("NAME"))
                         .salary(rs.getInt("SALARY"))
                         .build());
-                //statement.close();
+                statement.close();
             }
         } catch (Exception e){
             e.printStackTrace();
@@ -33,7 +33,7 @@ public class DatabaseQueryService {
     List<FindLongestProject> findLongestProjects(){
         List<FindLongestProject> longest_project = new ArrayList<>();
 
-        String sql = SQLReader.fileReader("C:\\Users\\Victor\\Desktop\\GitHub\\dev-jdbc\\src\\main\\java\\ua\\goit\\vic\\sql\\find_longest_project.sql");
+        String sql = SQLReader.fileReader("src/main/java/ua/goit/vic/sql/find_longest_project.sql");
 
         try(Statement statement = Database.getInstance().getConnection().createStatement()){
             ResultSet rs = statement.executeQuery(sql);
@@ -42,7 +42,7 @@ public class DatabaseQueryService {
                         .name(rs.getString("NAME"))
                         .month_count(rs.getInt("MONTH_COUNT"))
                         .build());
-                //statement.close();
+                statement.close();
             }
         } catch (Exception e){
             e.printStackTrace();
@@ -53,7 +53,7 @@ public class DatabaseQueryService {
     List<FindMaxProjectsClient> findMaxProjectsClients(){
         List<FindMaxProjectsClient> client_project = new ArrayList<>();
 
-        String sql = SQLReader.fileReader("C:\\Users\\Victor\\Desktop\\GitHub\\dev-jdbc\\src\\main\\java\\ua\\goit\\vic\\sql\\find_max_projects_client.sql");
+        String sql = SQLReader.fileReader("src/main/java/ua/goit/vic/sql/find_max_projects_client.sql");
         try(Statement statement = Database.getInstance().getConnection().createStatement()){
             ResultSet rs = statement.executeQuery(sql);
             while (rs.next()){
@@ -61,7 +61,7 @@ public class DatabaseQueryService {
                         .name(rs.getString("NAME"))
                         .count(rs.getInt("PROJECT_COUNT"))
                         .build());
-                //statement.close();
+                statement.close();
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -72,7 +72,7 @@ public class DatabaseQueryService {
     List<FindYoungestEldestWorker> findYoungestEldestWorkers(){
         List<FindYoungestEldestWorker> youngestEldestWorkers = new ArrayList<>();
 
-        String sql = SQLReader.fileReader("C:\\Users\\Victor\\Desktop\\GitHub\\dev-jdbc\\src\\main\\java\\ua\\goit\\vic\\sql\\find_youngest_eldest_workers.sql");
+        String sql = SQLReader.fileReader("src/main/java/ua/goit/vic/sql/find_youngest_eldest_workers.sql");
         try(Statement statement = Database.getInstance().getConnection().createStatement()) {
             ResultSet rs = statement.executeQuery(sql);
             while(rs.next()){
@@ -81,7 +81,7 @@ public class DatabaseQueryService {
                         .name(rs.getString("NAME"))
                         .birthday(LocalDate.parse(rs.getString("BIRTHDAY")))
                         .build());
-                //statement.close();
+                statement.close();
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -92,7 +92,7 @@ public class DatabaseQueryService {
     List<PrintProjectPrices> printProjectPrices(){
         List<PrintProjectPrices> project_price = new ArrayList<>();
 
-        String sql = SQLReader.fileReader("C:\\Users\\Victor\\Desktop\\GitHub\\dev-jdbc\\src\\main\\java\\ua\\goit\\vic\\sql\\print_project_prices.sql");
+        String sql = SQLReader.fileReader("src/main/java/ua/goit/vic/sql/print_project_prices.sql");
         try(Statement statement = Database.getInstance().getConnection().createStatement()) {
             ResultSet rs = statement.executeQuery(sql);
             while(rs.next()){
@@ -100,11 +100,15 @@ public class DatabaseQueryService {
                         .id(rs.getString("NAME"))
                         .price(rs.getInt("PRICE"))
                         .build());
-                //statement.close();
+                statement.close();
             }
         }catch (Exception e){
             e.printStackTrace();
         }
         return  project_price;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new DatabaseQueryService().printProjectPrices().toString());
     }
 }

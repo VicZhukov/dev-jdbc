@@ -327,3 +327,6 @@ ORDER BY project_cost DESC [42122-214]
 	at org.h2.server.web.WebThread.process(WebThread.java:188)
 	at org.h2.server.web.WebThread.run(WebThread.java:101)
 	at java.base/java.lang.Thread.run(Thread.java:831)
+2023-03-26 12:36:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-214]
