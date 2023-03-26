@@ -11,15 +11,14 @@ public class DatabaseInitService {
         String initDB_file = "src/main/java/ua/goit/vic/sql/init_db.sql";
         try {
             BufferedReader br = new BufferedReader(new FileReader(initDB_file));
-            Statement statement = Database.getInstance().getConnection().createStatement();
+            Connection connection = Database.getInstance().getConnection();
             String line;
             StringBuilder sb = new StringBuilder();
             while ((line = br.readLine()) != null) {
                 sb.append(line);
                 if (line.endsWith(";")) {
                     try {
-                        statement.executeUpdate(sb.toString());
-                        statement.close();
+                        connection.createStatement().executeUpdate(sb.toString());
                     } catch (SQLException e) {
                         System.err.println("Error executing SQL statement: ");
                         e.printStackTrace();
@@ -27,6 +26,7 @@ public class DatabaseInitService {
                     sb.setLength(0);
                 }
             }
+            connection.close();
         } catch (Exception e) {
             System.err.println("Error reading SQL file or connecting to database.");
             e.printStackTrace();

@@ -107,8 +107,4 @@ public class DatabaseQueryService {
         }
         return  project_price;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new DatabaseQueryService().printProjectPrices().toString());
-    }
 }
